@@ -22,7 +22,7 @@ defmodule Telegrambot.MixProject do
   defp deps do
     [
       {:timex, "~> 3.6"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:telegram, git: "https://github.com/visciang/telegram.git", tag: "0.5.0"}
     ]
   end
 end

@@ -1,18 +1,7 @@
 defmodule Telegrambot do
-  @moduledoc """
-  Documentation for Telegrambot.
-  """
+  use Timex
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Telegrambot.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def timexnow do
+    IO.puts Timex.now
   end
 end
